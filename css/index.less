@@ -1,0 +1,89 @@
+@import url("./wjsfont.less");
+
+.wjs_view{}
+
+/* 头部工具栏 */
+.top_tool{
+    .row>div{
+        border: 1px solid #000;
+        border-left: none;
+        border-top: none;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        a{
+            color: #808080;
+        }
+        .btn-danger{
+            color: #fff;
+        }
+        .tt_code{
+            position: relative;
+            >img{
+                position: absolute;
+                top: 25px;
+                left: -2px;
+                display: none;
+                z-index: 3;
+            }
+            &:hover>img{
+                display: block;
+            }
+        }
+    }
+}
+
+/* 导航条 */
+.wjs_nav{
+    /* 极小屏幕之后 看不到a标签的背景颜色 */
+    /* .navbar{
+      height: 80px;
+    } */
+    /* 可以看到背景颜色 */
+    a{
+        height: 80px;
+        &:hover,
+        &:focus {
+            border-bottom: 1px solid red;
+        }
+    }
+    .navbar{
+        margin-bottom: 0;
+    }
+    .navbar-brand{
+        padding-top: 30px;
+    }
+    .wjsfont{
+        font-size: 75px;
+        line-height: 20px
+    }
+    .wjsfont-logo{
+        color: red;
+    }
+    .navbar-nav > li > a{
+        line-height: 80px;
+        padding: 0 15px;
+    }
+}
+
+/* 轮播图 */
+.wjs_carousel{
+    img{
+        width: 100%;
+    }
+}
+
+/* 支付交易保障 */
+.wjs_exchange{}
+
+/* 正在排队 */
+.wjs_waiting{}
+
+/* 微投资 */
+.wjs_buy{}
+
+/* 新闻 */
+.wjs_news{}
+
+/* 尾部 */
+footer{}

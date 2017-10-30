@@ -1,0 +1,150 @@
+/* 导入 字体文件 */
+@font-face {
+  font-family: 'wjsfont';
+  src: url('../font/MiFie-Web-Font.eot');
+  src: url('../font/MiFie-Web-Font.eot?#iefix') format('embedded-opentype'), url('../font/MiFie-Web-Font.woff') format('woff'), url('font/MiFie-Web-Font.ttf') format('truetype'), url('../font/MiFie-Web-Font.svg') format('svg');
+}
+/* 定义 使用的class */
+.wjsfont {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'wjsfont';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+.wjsfont-logo::before {
+  content: '\e920';
+}
+.wjsfont-name::before {
+  content: '\e921';
+}
+.wjsfont-e903::before {
+  content: '\e903';
+}
+.wjsfont-e901::before {
+  content: '\e901';
+}
+.wjsfont-e904::before {
+  content: '\e904';
+}
+.wjsfont-e905::before {
+  content: '\e905';
+}
+.wjsfont-e902::before {
+  content: '\e902';
+}
+/* 添加 产品列表的 文字样式 */
+.wjsfont-e915::before {
+  content: '\e915';
+}
+.wjsfont-new01::before {
+  content: "\e90e";
+}
+.wjsfont-new02::before {
+  content: "\e90f";
+}
+.wjsfont-new03::before {
+  content: "\e910";
+}
+.wjsfont-new04::before {
+  content: "\e911";
+}
+/* 网页 最下方的 合作单位 */
+.wjsfont-partner01::before {
+  content: "\e946";
+}
+.wjsfont-partner02::before {
+  content: "\e92f";
+}
+.wjsfont-partner03::before {
+  content: "\e92e";
+}
+.wjsfont-partner04::before {
+  content: "\e92a";
+}
+.wjsfont-partner05::before {
+  content: "\e929";
+}
+.wjsfont-partner06::before {
+  content: "\e931";
+}
+.wjsfont-partner07::before {
+  content: "\e92c";
+}
+.wjsfont-partner08::before {
+  content: "\e92b";
+}
+.wjsfont-partner09::before {
+  content: "\e92d";
+}
+/* 头部工具栏 */
+.top_tool .row > div {
+  border: 1px solid #000;
+  border-left: none;
+  border-top: none;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.top_tool .row > div a {
+  color: #808080;
+}
+.top_tool .row > div .btn-danger {
+  color: #fff;
+}
+.top_tool .row > div .tt_code {
+  position: relative;
+}
+.top_tool .row > div .tt_code > img {
+  position: absolute;
+  top: 25px;
+  left: -2px;
+  display: none;
+  z-index: 3;
+}
+.top_tool .row > div .tt_code:hover > img {
+  display: block;
+}
+/* 导航条 */
+.wjs_nav {
+  /* 极小屏幕之后 看不到a标签的背景颜色 */
+  /* .navbar{
+      height: 80px;
+    } */
+  /* 可以看到背景颜色 */
+}
+.wjs_nav a {
+  height: 80px;
+}
+.wjs_nav a:hover,
+.wjs_nav a:focus {
+  border-bottom: 1px solid red;
+}
+.wjs_nav .navbar {
+  margin-bottom: 0;
+}
+.wjs_nav .navbar-brand {
+  padding-top: 30px;
+}
+.wjs_nav .wjsfont {
+  font-size: 75px;
+  line-height: 20px;
+}
+.wjs_nav .wjsfont-logo {
+  color: red;
+}
+.wjs_nav .navbar-nav > li > a {
+  line-height: 80px;
+  padding: 0 15px;
+}
+/* 轮播图 */
+.wjs_carousel img {
+  width: 100%;
+}
+/* 支付交易保障 */
+/* 正在排队 */
+/* 微投资 */
+/* 新闻 */
+/* 尾部 */
